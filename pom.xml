@@ -15,7 +15,8 @@
 		<mule.version>3.9.0</mule.version>
     	<mule.tools.version>1.2</mule.tools.version>
     	<activemq.version>5.15.2</activemq.version>
-    	
+    	<uid>EBIMule</uid>
+    	<pwd></pwd>
 	</properties>
 
 	<build>
