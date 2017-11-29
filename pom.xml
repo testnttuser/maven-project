@@ -16,7 +16,7 @@
     	<mule.tools.version>1.2</mule.tools.version>
     	<activemq.version>5.15.2</activemq.version>
     	<uid>EBIMule</uid>
-    	<pwd></pwd>
+    	<pwd/>
 	</properties>
 
 	<build>
@@ -204,6 +204,12 @@
     <dependency>
             <groupId>org.mule.transports</groupId>
             <artifactId>mule-transport-jms</artifactId>
+            <version>${mule.version}</version>
+            <scope>provided</scope>
+        </dependency>
+    <dependency>
+            <groupId>org.mule.modules</groupId>
+            <artifactId>mule-module-json</artifactId>
             <version>${mule.version}</version>
             <scope>provided</scope>
         </dependency>
